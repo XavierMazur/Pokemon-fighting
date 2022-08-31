@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Random;
 
 // Abstract class that describes any Pokémon
@@ -11,6 +12,7 @@ public abstract class Pokemon {
     private double healthMultiplicator;
     private Type type;
     //TODO: ArrayList of attacks
+    //private ArrayList<Attack> listAttacks;
 
     // Attributs for game mechanics
     private final int maxMulti = 25;

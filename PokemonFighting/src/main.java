@@ -7,6 +7,8 @@ public class main {
         System.out.println(bulbasaur1.toString());
         Bulbasaur bulbasaur2 = new Bulbasaur("B2", 5);
         System.out.println(bulbasaur2.toString());
+        Charmander charmander = new Charmander("C", 5);
+        System.out.println(charmander.toString());
     }
 
 }
